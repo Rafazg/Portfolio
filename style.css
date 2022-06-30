@@ -251,3 +251,44 @@ header .menu ul li a:hover{
     width: 400px;
     height: 500px;
 }
+/*====== Section-Projects ====== */
+
+/*====== Section Contact ====== */
+
+#contact .container{
+    background: url(images/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+#contact .title{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 25px;
+}
+
+#contact .form{
+    margin-left: 45px;
+    border-radius: 35px;
+    width: 440px;
+    box-shadow: 0 0 10px 0 rgba(0, 81, 255, 0.973);
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+#contact .form input{
+    width: 300px;
+    height: 25px;
+}
+#contact .form button{
+    
+}
